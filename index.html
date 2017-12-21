@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Vaani:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet">
+
+        <link rel="stylesheet" href="main.css">
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='main_v2.css') }}"> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <title>Lab Site</title>
+    </head>
+
+	<body>
+
+
+	<div id="app-container">
+		<div id="side-menu">
+			<div class="menu-title">Mock Starket</div>
+			<div id="time-clock">
+				<div><p id="time-remaining"></p></div>
+				<div class="clock-description">until the next cycle</div>
+			</div>
+			<ul id="menu-items">
+				<li>
+					<a href="/dev">
+					<i class="material-icons">business_center</i>
+
+						<div class="menu-item-title">Portfolio</div>
+
+					<i class="material-icons right-arrow">keyboard_arrow_right</i></li>
+					</a>
+				<li>
+					<a href="/stocks">
+					<i class="material-icons">trending_up</i>
+
+						<div class="menu-item-title">Stocks</div>
+
+					<i class="material-icons right-arrow">keyboard_arrow_right</i></li>
+					</a>
+				<li>
+				    <a href="/investors">
+					<i class="material-icons">account_box</i>
+
+						<div class="menu-item-title">Investors</div>
+
+					<i class="material-icons right-arrow">keyboard_arrow_right</i>
+					</a>
+				</li>
+				<li>
+					<i class="material-icons">swap_horiz</i>
+
+						<div class="menu-item-title">Trading</div>
+
+					<i class="material-icons right-arrow">keyboard_arrow_right</i></li>
+				<li>
+
+					<i class="material-icons">local_atm</i>
+
+						<div class="menu-item-title">Store</div>
+
+					<i class="material-icons right-arrow">keyboard_arrow_right</i>
+
+				</li>
+
+			</ul>
+		</div>
+		<div id="main-content">
+			<div id="top-bar">
+				<div class="nav-block view-title">Educational Technology Collective</div>
+				<div class="nav-block greeting hidden">
+					<ul>
+						<li><a id="about-link" href="#about">About</a></li>
+						<li><a id="about-link" href="#team">People</a></li>
+						<li><a id="about-link" href="#publications">Publications</a></li>
+					</ul> 
+				</div>
+				<div class="mobile-nav-btn">
+					<i class="material-icons">menu</i>
+				</div>
+			</div>
+			<div id="hero">
+				<div id="hero-text">
+					<span class="hero-heading">Learning Analytics</span>
+					<div class="hero-sub-heading">Insert mission statment here.</div>
+					<!-- <ul id="hero-links">
+						<li class="projects-link">projects</li>
+						<li class="contact-link">publications</li>
+					</ul> -->
+				</div>
+				<img id="hero-img" class="img-responsive" src="assets/hero-team.jpg">
+			</div>
+			<div id="content" class="container-fluid">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+
+					<section id="about" class="col-xs-12">
+						<h1 class="font-centered bottom-divider section-h1">About us</h1>
+						<div class="about-text font-centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					</section>
+					<section id="projects" class="col-xs-12">
+						<h1 class="font-left section-h1">Projects</h1>
+					</section>
+					<div class="col-xs-3">
+						<div class="block-container">
+							<h4 class="block-title">Project 1</h4>
+							
+						</div>
+						<div class="block-container">
+							<h4 class="block-title">Project 1</h4>
+							
+						</div>
+						<div class="block-container">
+							<h4 class="block-title">Project 1</h4>
+							
+						</div>
+					</div>
+
+	    			<div class="col-xs-9">
+	    				<div class="project-detail-container">
+							<h4 class="block-title">Project 1</h4>
+							
+						</div>
+					    
+					</div>
+					<section id="team" class="col-xs-12">
+						<h1 class="font-left section-h1">Team</h1>
+					</section>
+		
+					<div class="col-xs-12">
+						<h3 class="font-left sub-section-h3">Faculty &amp; Post Docs</h3>
+						<ul class="people-list">
+							<li>
+								<div class="profile-picture" style="background-image: url('assets/sample-profile-picture-4.jpg')"></div>
+								<div class="person-name">Christopher Brooks</div>
+								<div class="person-title">Research Professor</div>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="col-xs-12">
+						<h3 class="font-left sub-section-h3">PhD Students</h3>
+						<ul class="people-list">
+							<li>
+								<div class="profile-picture" style="background-image: url('assets/sample-profile-picture-1.jpg')"></div>
+								<div class="person-name">Nia Dowell</div>
+								<div class="person-title">PhD Student</div>
+							</li>
+							<li>
+								<div class="profile-picture" style="background-image: url('assets/sample-profile-picture-2.jpg')"></div>
+								<div class="person-name">Heeryung Choi</div>
+								<div class="person-title">PhD Student</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xs-12">
+						<h3 class="font-left sub-section-h3">Masters Students</h3>
+						<ul class="people-list">
+							<li>
+								<div class="profile-picture" style="background-image: url('assets/sample-profile-picture-3.jpg')"></div>
+								<div class="person-name">Phoebe Liang</div>
+								<div class="person-title">Masters Student</div>
+							</li>
+							<li>
+								<div class="profile-picture" style="background-image: url('assets/sample-profile-picture-1.jpg')"></div>
+								<div class="person-name">Josh Gardner</div>
+								<div class="person-title">Masters Student</div>
+							</li>
+							<li>
+								<div class="profile-picture" style="background-image: url('assets/sample-profile-picture-3.jpg')"></div>
+								<div class="person-name">Brennan Sieck</div>
+								<div class="person-title">Masters Student</div>
+							</li>
+							<li>
+								<div class="profile-picture" style="background-image: url('assets/sample-profile-picture-5.jpg')"></div>
+								<div class="person-name">Anant Mittal</div>
+								<div class="person-title">Masters Student</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xs-12">
+						<h3 class="font-left sub-section-h3">Undergraduate Students</h3>
+						<ul class="people-list">
+							<li>
+								<div class="profile-picture" style="background-image: url('assets/sample-profile-picture-4.jpg')"></div>
+								<div class="person-name">Jing Hu</div>
+								<div class="person-title">Undergraduate Student</div>
+							</li>
+						</ul>
+					</div>
+					<section id="publications" class="col-xs-12">
+						<h1 class="font-left section-h1">Publications</h1>
+						<ul class="publications-list">
+							<li>
+								<div class="publication-title">Title of publication</div>
+								<div class="publication-link"><a href="#">Link to publication</a></div>
+							</li>
+							<li>
+								<div class="publication-title">Title of publication</div>
+								<div class="publication-link"><a href="#">Link to publication</a></div>
+							</li>
+							<li>
+								<div class="publication-title">Title of publication</div>
+								<div class="publication-link"><a href="#">Link to publication</a></div>
+							</li>
+						</ul>
+					</section>
+				</div>
+				
+				<footer class="col-xs-12">
+					<h1 class="font-centered section-h3">Work in the Educational Technology Collective is funded by projects from the following</h1>
+					<div id="support-logos">
+						<div class="flex-grid">
+							<div class="flex-col">
+								<img src="./assets/nsf_transparent.gif" class="img-responsive">
+							</div>
+							<div class="flex-col">
+								<img src="./assets/midas_logo.png" class="img-responsive">
+							</div>
+							<div class="flex-col">
+								<img src="./assets/ai_logo_horiz.png" class="img-responsive">
+							</div>
+						</div>		
+					</div>
+				</footer>
+			</div>
+			
+				
+			
+	</div>
+
+	</body>
+
+
+
+
+
+	<script type="text/javascript">
+
+	$( document ).ready(function() {
+
+		var scrollVal = 0;
+		var topBarOpen = false;
+		var topBar = $('#top-bar');
+		var heroContent = $('#hero-text');
+
+		$(document).scroll(function() {
+
+			scrollVal = $(document).scrollTop();
+
+			if (scrollVal < 596 ) {
+				heroContent.css('transform', 'translateY(' + (-scrollVal*0.15) + 'px)');
+			}
+
+			if (scrollVal < 596 && topBarOpen) {
+				topBar.removeClass('open');
+				topBarOpen = false;
+			}
+			if (scrollVal > 597 && !topBarOpen) {
+
+				topBar.addClass('open');
+				topBarOpen = true;
+			}
+
+		    console.log("SCROLL: "+scrollVal);
+
+
+		})
+	});
+  
+	</script>
+</html>
+
+
+
